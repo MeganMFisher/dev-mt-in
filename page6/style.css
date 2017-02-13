@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,600,700');
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lora";
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #272727;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-arrow {
+    font-weight: 200;
+}
+
+.hMenu-box {
+    height: 17px;
+    width: 37px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger-menu {
+    width: 25px;
+    height: 2px;
+    background-color: #9a9a9a;
+    ;
+    margin: 1px 0;
+    border-radius: 3px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.ham-menu {
+    width: 25px;
+    height: 2px;
+    background-color: #9a9a9a;
+    border-radius: 3px;
+    margin: 3px 0;
+    align-self: center;
+}
+
+
+/*-----------------------*/
+
+.main-section {
+    height: 90vh;
+    margin-top: 80px;
+    display: flex;
+}
+
+.info {
+    height: 75vh;
+    width: 40%;
+    z-index: 150;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textBox {
+    margin-left: 190px;
+    width: 320px;
+    height: 70vh;
+}
+
+h1 {
+    font-family: "Lora";
+    font-size: 38.4px;
+    line-height: 46px;
+    color: #272727;
+}
+
+h2 {
+    font-size: 10.2px;
+    line-height: 14px;
+    color: #000;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+p {
+    width: 286px;
+    font-family: "Open Sans";
+    font-size: 14.2px;
+    line-height: 14px;
+    color: #000;
+    text-align: justify;
+    width: 200px;
+}
+
+.updateBox {
+    width:60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+
+.profile-settings {
+    width: 320px;
+    margin: 5px;
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #000;
+    font-family: "Lora";
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.input-box {
+    width: 320px;
+    height: 57vh;
+    margin-left: 5px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-box {
+    margin-top: 5px;
+    width: 260px;
+    height: 25px;
+    margin: 5px;
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #b6b6b6;
+    font-family: "Lora";
+}
+
+.text-box:nth-child(4) {
+    width: 260px;
+    margin: 5px;
+    padding-bottom: 190px;
+}
+
+.changes-button {
+    width: 320px;
+    margin: 5px;
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #000;
+    font-family: "Lora";
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+
+/*-----------------------*/
+
+
+.bottomhr {
+    width: 70%;
+}
+
+.nav-bar {
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    width: 80%;
+    font-family: "Open Sans";
+    font-weight: bold;
+    line-height: 18px;
+    font-size: 13.2px;
+    color: #9a9a9a;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.update{
+    border-bottom: 3px solid #00ffe9;
+    height: 20px;
+}
+/*-------------------------------*/
+
+@media (min-width: 1000px) {
+    .updateBox {
+        width: 40%;
+    }
+    .info {
+        width: 40%;
+    }
+}
